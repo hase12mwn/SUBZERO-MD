@@ -7,8 +7,8 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~ws4mGKgR#Zp8LovZzm0eFb12ByMONNRHoSfRw71Fn6Eaqr6fNPLQ",  // Your bot's session ID (keep it secure)
-    PREFIX: process.env.PREFIX || ".",         // Command prefix (e.g., "., / ! * - +")
+    SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~FkhVhCrZ#9U_wxdMVNCJlgj8P9V_nzGWA8enAc8VMl8QWdjjQ7aM",  // Your bot's session ID (keep it secure)
+    PREFIX: process.env.PREFIX || "!",         // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || "SUBZERO-MD",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     REPO: process.env.REPO || "https://github.com/mrfrankofcc/SUBZERO-MD",  // Bot's GitHub repo
